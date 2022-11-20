@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Évszakok</title>
+
+    <style>
+        .menu  { 
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
+          overflow: hidden;
+          background-color: #333;
+        }
+        
+        .menu li {
+          float: left;
+        }
+        
+        .menu li a {
+          display: block;
+          color: white;
+          text-align: center;
+          padding: 14px 16px;
+          text-decoration: none;
+        }
+        
+        .menu li a:hover:not(.active) {
+          background-color: #111;
+        }
+        
+        .active {
+          background-color: #04AA6D;
+        }
+
+        .div-hover{
+          width: 200px;
+          border: 1px solid black;
+          
+        }
+        img{
+    border: 5px solid black;
+    border-radius: 5%;
+    width: 200px;
+    margin:20px;
+    transition: 1s;
+}
+
+img:hover{
+    transform: scale(1.3);
+}
+
+p{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: larger;
+    text-align: center;
+    transition: 1s;
+}
+
+img:hover + p {
+    font-size: xx-large;
+}
+.kepek{
+   float: left;
+}
+        </style>
+
+</head>
+<body>
+
+    <ul class="menu">
+        <li><a  href="https://dominikorosz.github.io/web/" >HOME</a> </li>
+        <li><a href="https://dominikorosz.github.io/web/keplink" >KÉPLINK</a> </li>
+        <li><a href=" https://dominikorosz.github.io/web/lista" >LISTA</a> </li>
+        <li><a href=" https://dominikorosz.github.io/web/tablazat" >ÓRAREND</a> </li>
+        <li><a href=" https://dominikorosz.github.io/web/urlap.html" >Űrlap</a></li>
+        <li ><a class="active" href=" https://dominikorosz.github.io/web/div.html"> Évszakok</a></li>
+      </ul>
+
+      <div>
+        <img src="https://pepe1125.github.io/kollazs/img/tel.jpg" alt="tél" class="div-hover">
+        <div>
+            <h2>Tél</h2>
+        </div>
+    </div>
+    <div>
+      <img src="https://pepe1125.github.io/kollazs/img/tavasz.jpg" alt="tavasz" class="div-hover">
+      <div>
+        <h2>Tavasz</h2>
+      </div>
+    </div>
+    <div>
+      <img src="https://pepe1125.github.io/kollazs/img/nyar.jpg" alt="nyár" class="div-hover">
+      <div>
+        <h2>Nyár</h2>
+      </div>
+    </div>
+    <div>
+    <img src="https://pepe1125.github.io/kollazs/img/osz.jpg" alt="ősz" class="div-hover">
+    <div>
+      <h2>Ősz</h2>
+    </div>
+    </div>
+
+    
+    
+</body>
+</html>
