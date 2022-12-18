@@ -1,36 +1,51 @@
 body{
     background-color: rgb(20, 185, 158);
     color: black;
+    font-family:Verdana;
   }
 
-  .menu  { 
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
+  * {
+    box-sizing: border-box;
   }
   
-  .menu li {
+  .menu {
     float: left;
-  }
-  
-  .menu li a {
-    display: block;
-    color: white;
+    width: 20%;
     text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
   }
   
-  .menu li a:hover:not(.active) {
-    background-color: #111;
+  .menu a {
+    background-color:  rgb(20, 160, 185);
+    padding: 8px;
+    margin-top: 7px;
+    display: block;
+    width: 100%;
+    color: black;
   }
   
-  .active {
-    background-color: #04AA6D;
+  .main {
+    float: left;
+    width: 60%;
+    padding: 0 20px;
   }
+  
+  .right {
+    background-color:  rgb(20, 185, 158);
+    float: left;
+    width: 20%;
+    padding: 15px;
+    margin-top: 7px;
+    text-align: center;
+  }
+  
+  @media only screen and (max-width: 620px) {
+    /* For mobile phones: */
+    .menu, .main, .right {
+      width: 100%;
+    }
 
+
+  }
   .div-hover{
     width: 200px;
     border: 1px solid black;
@@ -53,7 +68,10 @@ transition: 1s;
     font-size: xx-large;
 }
 
-
+.main{
+margin: 25px 100px;
+float: left;
+}
 
   footer {
 text-align: center;
