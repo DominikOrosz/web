@@ -1,6 +1,6 @@
 body{
-    background-color: rgb(20, 185, 158);
-    color: black;
+    background-color: rgba(201, 200, 200);
+    color: rgb(20, 19, 19);
     font-family:Verdana;
   }
 
@@ -15,7 +15,7 @@ body{
   }
   
   .menu a {
-    background-color:  rgb(20, 160, 185);
+    background-color:  rgb(32,150,223);
     padding: 8px;
     margin-top: 7px;
     display: block;
@@ -26,11 +26,11 @@ body{
   .main {
     float: left;
     width: 60%;
-    padding: 0 20px;
+    padding:  20px;
   }
   
   .right {
-    background-color:  rgb(20, 185, 158);
+    background-color:  rgb(201, 200, 200);
     float: left;
     width: 20%;
     padding: 15px;
