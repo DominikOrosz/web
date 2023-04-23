@@ -1,0 +1,53 @@
+body
+{
+  background-color: #35a6e8;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-image: url(deszka.jpg);
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+  
+  .active {
+    background-image: url(viz.jpg);
+  }
+  img
+  {
+    width: 10%;
+    height: 10%;
+    padding-left: 1.5%;
+
+  }
+  h3
+  {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+    font-weight: bolder;
+  }
+table
+{
+  border: 3px solid black;
+  width: 80%;
+  height: 120%;
+}
+
+

@@ -1,0 +1,54 @@
+img{
+    height: 200px; width: 260px;
+    float: left;
+    border-style: double;
+    border-color: rgb(0, 0, 0);
+    border-width: 4px;
+    border-radius: 7px;
+}
+
+.card-body{
+    border-style: double;
+    border-radius: 7px;
+}
+
+
+h4{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+hr{
+    width: 120px;
+}
+
+.cardboy{
+    padding-left: 280px;
+    padding-top: 25px;
+}
+
+.kartya1{
+    float: left;
+    padding-left: 100px;
+    padding-top: 20px;
+}
+
+.kartya2{
+    float: right;
+    float: left;
+    padding-right: 100px;
+    padding-top: 20px;
+}
+
+.kartya3{
+    float: left;
+    float: left;
+    padding-left: 100px;
+    padding-top: 20px;
+}
+
+.kartya4{
+    float: right;
+    padding-right: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
